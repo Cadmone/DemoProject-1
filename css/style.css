@@ -82,6 +82,7 @@ section {
   -moz-transition: 0.3s ease;
   -ms-transition: 0.3s ease;
   -o-transition: 0.3s ease;
+  font-family: "Poppins",
 }
 
 .navbar a:hover,
@@ -99,8 +100,9 @@ section {
 /* home section style here */
 .home {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 100px;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 .home-img img {
@@ -157,6 +159,7 @@ section {
 .home-content h3 {
   font-size: 3.7rem;
   font-weight: 700;
+  font-family: "Poppins",
 }
 
 .home-content h3:nth-of-type(2) {
@@ -171,11 +174,15 @@ span {
   font-size: 6rem;
   font-weight: 700;
   line-height: 1.3;
+  font-family: "Poppins",
 }
 
 .home-content p {
+  font-weight: 400;
   font-size: 1.6rem;
   text-align: justify;
+  font-family: "Poppins",
+  
 }
 
 .socials-box a {
@@ -212,7 +219,7 @@ span {
   box-shadow: 0 0 25px var(--main-color);
 }
 
-.btn {
+.btn a{
   display: inline-block;
   padding: 1rem 2.8rem;
   background: var(--main-color);
@@ -221,9 +228,9 @@ span {
   -moz-border-radius: 4rem;
   -ms-border-radius: 4rem;
   -o-border-radius: 4rem;
+  color: #fff;
   box-shadow: none;
   font-size: 1.6rem;
-  color: var(--primary-BgColor);
   letter-spacing: 0.1rem;
   font-weight: 600;
   transition: 0.3s ease;
@@ -233,7 +240,8 @@ span {
   -o-transition: 0.3s ease;
 }
 
-.btn:hover {
+
+.btn a:hover {
   box-shadow: 0 0 1.6rem var(--main-color);
 }
 
@@ -291,6 +299,32 @@ span {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
 }
+.btn1 a{
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: var(--main-color);
+  border-radius: 4rem;
+  -webkit-border-radius: 4rem;
+  -moz-border-radius: 4rem;
+  -ms-border-radius: 4rem;
+  -o-border-radius: 4rem;
+  color: #fff;
+  box-shadow: none;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+
+
+.btn1 a:hover {
+  box-shadow: 0 0 1.6rem var(--main-color);
+}
+
 
 /* services section code here  */
 .services h2 {
@@ -344,6 +378,31 @@ span {
 .services-box p {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
+}
+.btn2 a{
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: var(--main-color);
+  border-radius: 4rem;
+  -webkit-border-radius: 4rem;
+  -moz-border-radius: 4rem;
+  -ms-border-radius: 4rem;
+  -o-border-radius: 4rem;
+  color: #fff;
+  box-shadow: none;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+
+
+.btn2 a:hover {
+  box-shadow: 0 0 1.6rem var(--main-color);
 }
 
 /* testimonial section style here */
